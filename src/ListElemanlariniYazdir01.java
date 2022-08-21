@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class ListElemanlariniYazdir {
+public class ListElemanlariniYazdir01 {
 /*
     Lambda Functional Programming ile ilgili kisa bilgiler:
 
@@ -49,7 +49,9 @@ public class ListElemanlariniYazdir {
     public static void listElemanlariniAyniSatirdaYazdir(List<Integer> list) {
         list.stream().forEach(t -> System.out.print(t + " "));
         // .stream method() => collection dan elemanlari akisa dahil etmek icin ve () lara ulasmak icin kullandik.
-        // .forEach() => elemanlarin icinde dolasmak icin kullandik.,
+        // .forEach() => elemanlarin icinde dolasmak icin kullandik.
+        //'t' yerine istersek istedigimiz seyi kullanabiliriz ama 't' dunya capinda kabul gormus kullanimdir.
+        //
 
     }
 }
