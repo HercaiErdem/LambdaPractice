@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class LambdaClass01 {
+public class ListElemanlariniYazdir {
 /*
     Lambda Functional Programming ile ilgili kisa bilgiler:
 
