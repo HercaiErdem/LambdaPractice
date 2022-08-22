@@ -42,9 +42,10 @@ public class ListElemanlariniYazdir01 {
     }
 //1)Ardışık list elemanlarini aynı satırda aralarında boşluk bırakarak yazdıran bir method oluşturun.(Functional)
 
-    //method ()'umuza her yerden ulasilabilsin diye public yappalim
+    //method ()'umuza her yerden ulasilabilsin diye access modifier'i public yapalim
     // main den cagiracagimiz icin main de bir static oldugu icin static yapalim
     // bize bir sey dondurmeyecek sadece yazdiracagimiz icin void yapalim
+
 
     public static void listElemanlariniAyniSatirdaYazdir(List<Integer> list) {
         list.stream().forEach(t -> System.out.print(t + " "));
