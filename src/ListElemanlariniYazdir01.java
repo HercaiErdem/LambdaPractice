@@ -38,7 +38,7 @@ public class ListElemanlariniYazdir01 {
 
 
     }
-//1)Ardışık list elemanlarini aynı satırda aralarında boşluk bırakarak yazdıran bir method oluşturun.(Functional)
+    //1)Ardışık list elemanlarini aynı satırda aralarında boşluk bırakarak yazdıran bir method oluşturun.(Functional)
 
     //method ()'umuza her yerden ulasilabilsin diye access modifier'i public yapalim
     // main den cagiracagimiz icin main de bir static oldugu icin static yapalim
@@ -50,7 +50,6 @@ public class ListElemanlariniYazdir01 {
         // .stream method() => collection dan elemanlari akisa dahil etmek icin ve () lara ulasmak icin kullandik.
         // .forEach() => elemanlarin icinde dolasmak icin kullandik.
         //'t' yerine istersek istedigimiz seyi kullanabiliriz ama 't' dunya capinda kabul gormus kullanimdir.
-        //
 
     }
 }
