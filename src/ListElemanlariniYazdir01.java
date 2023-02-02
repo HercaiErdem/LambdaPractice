@@ -2,23 +2,22 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ListElemanlariniYazdir01 {
-/*
-    Lambda Functional Programming ile ilgili kisa bilgiler:
-
-    1) Lambda (Functional Programming) Java 8 ile kullanılmaya başlanmıştır.
-    2) Functional Programming'de "Ne yapılacak" (What to do) üzerine yoğunlaşılır.
-       Structured Programming "Nasıl yapılacak" (How to do) üzerine yoğınlaşılır.
-       Structured Programming => Core Java da ogrendiklerimiz
-    3) Functional Programming, Arrays ve Collections ile kullanılır.
-    4) "entrySet() methodu ile Map, Set'e dönüştürülerek Functional Programming'de kullanılabilir.
-   */
-
     /*
-     Asagidaki ornek sorular, Anil Yasin hoca ile yaptigimiz sorularin benzeri olucaktir.
-     Onunla cozdugumuz sorulari gormek isterseniz
-     https://github.com/HercaiErdem/Batch81-Java-LambdaLectures/tree/main/src/lambda_functional_programming
-     gidiniz.
-   */
+      Lambda Functional Programming ile ilgili kisa bilgiler:
+
+      1) Lambda (Functional Programming) Java 8 ile kullanılmaya başlanmıştır.
+      2) Functional Programming'de "Ne yapılacak" (What to do) üzerine yoğunlaşılır.
+         Structured Programming "Nasıl yapılacak" (How to do) üzerine yoğınlaşılır.
+         Structured Programming => Core Java da ogrendiklerimiz
+      3) Functional Programming, Arrays ve Collections ile kullanılır.
+      4) "entrySet() methodu ile Map, Set'e dönüştürülerek Functional Programming'de kullanılabilir.
+
+
+       Asagidaki ornek sorular, Anil Yasin hoca ile yaptigimiz sorularin benzeri olucaktir.
+       Onunla cozdugumuz sorulari gormek isterseniz
+       https://github.com/HercaiErdem/Batch81-Java-LambdaLectures/tree/main/src/lambda_functional_programming
+       gidiniz.
+     */
     public static void main(String[] args) {
         List<Integer> l = new ArrayList<>();
         l.add(8);
