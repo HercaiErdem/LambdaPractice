@@ -1,5 +1,4 @@
 import java.util.*;
-import java.util.*;
 
 public class CiftListElemanlariniYazdir02 {
     public static void main(String[] args) {
