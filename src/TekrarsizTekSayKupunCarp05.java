@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class TekrarsizTekSayKupunCarp05 {
     public static void main(String[] args) {
@@ -18,8 +17,9 @@ public class TekrarsizTekSayKupunCarp05 {
         System.out.println(l); // [8, 10, 3, 11, 33, 13, 78, 0, 8, 78]
 
     }
+
     //5) Tekrarsız tek elemanların küpünün çarpımını hesaplayan bir method oluşturun.
-    public static void tekrarsizTekElemanlarininKupununCarpimi (List<Integer>list) {
+    public static void tekrarsizTekElemanlarininKupununCarpimi(List<Integer> list) {
 
     }
 }
