@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class TekrarsizCiftSayKareTop04 {
     public static void main(String[] args) {
@@ -21,9 +20,9 @@ public class TekrarsizCiftSayKareTop04 {
 
     }
 
-// 4) Tekrarsız çift elemanlarin karelerinin toplamını hesaplayan bir method oluşturun.
-    public static void tekrasizCiftElemanlarinKarelerinToplami(List<Integer>list) {
-      Integer toplam= list.stream().distinct().filter(t->t%2==0).map(t->t*t).reduce(0,(t,u)->t+u);
+    // 4) Tekrarsız çift elemanlarin karelerinin toplamını hesaplayan bir method oluşturun.
+    public static void tekrasizCiftElemanlarinKarelerinToplami(List<Integer> list) {
+        Integer toplam = list.stream().distinct().filter(t -> t % 2 == 0).map(t -> t * t).reduce(0, (t, u) -> t + u);
         System.out.println(toplam);
 
         //.distinct() => tekrarsiz olan elemanlari almak icin kullanilir.
